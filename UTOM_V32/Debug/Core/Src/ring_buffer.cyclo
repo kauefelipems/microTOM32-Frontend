@@ -1,0 +1,10 @@
+ring_buffer.c:16:6:ring_buf_init	1
+ring_buffer.c:23:6:ring_buf_reset	1
+ring_buffer.c:31:9:ring_buf_full	1
+ring_buffer.c:37:9:ring_buf_empty	3
+ring_buffer.c:45:8:ring_buf_capacity	1
+ring_buffer.c:51:8:ring_buf_size	3
+ring_buffer.c:71:6:ring_buf_put	2
+ring_buffer.c:79:5:ring_buf_get	3
+ring_buffer.c:97:13:advance_pointer	4
+ring_buffer.c:110:13:retreat_pointer	2

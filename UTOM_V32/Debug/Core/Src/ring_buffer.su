@@ -1,0 +1,10 @@
+../Core/Src/ring_buffer.c:16:6:ring_buf_init	24	static
+../Core/Src/ring_buffer.c:23:6:ring_buf_reset	16	static
+../Core/Src/ring_buffer.c:31:9:ring_buf_full	16	static
+../Core/Src/ring_buffer.c:37:9:ring_buf_empty	16	static
+../Core/Src/ring_buffer.c:45:8:ring_buf_capacity	16	static
+../Core/Src/ring_buffer.c:51:8:ring_buf_size	24	static
+../Core/Src/ring_buffer.c:71:6:ring_buf_put	32	static
+../Core/Src/ring_buffer.c:79:5:ring_buf_get	32	static
+../Core/Src/ring_buffer.c:97:13:advance_pointer	16	static
+../Core/Src/ring_buffer.c:110:13:retreat_pointer	16	static
