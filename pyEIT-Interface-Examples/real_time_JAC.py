@@ -56,7 +56,7 @@ UTOM_path = "./protocol"  # Define your UTOM_path here
 stimulation_pattern = np.loadtxt(f"{UTOM_path}/UTOM_SW.txt", delimiter=",")
 
 n_commands = len(stimulation_pattern)
-stimulation_pattern = 2*(stimulation_pattern-1)
+stimulation_pattern = stimulation_pattern-1
 n_bytes = 2 * buffer_size
 data = np.zeros(n_commands, dtype=np.float32)
 
@@ -72,7 +72,7 @@ utom.write(command)
 
 
 """ 0. build mesh """
-n_el = 16  # nb of electrodes
+n_el = 32  # nb of electrodes
 use_customize_shape = False
 mesh_obj = mesh.create(n_el, h0=0.05)
 
