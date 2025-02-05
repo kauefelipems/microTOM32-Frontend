@@ -10,4 +10,4 @@ In the repository you will also find:
 - A PyEIT example for interface with the board (require PyEIT library installed)
 - µTOM32 board schematics for reference
 
-This is NOT a "plug and play" device, it is a preliminary version that requires debugging, characterization and (probably) corrections! 
+WARNING: This is NOT a "plug and play" device, it is a preliminary version that requires debugging, characterization and (probably) corrections! 
