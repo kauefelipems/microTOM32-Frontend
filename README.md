@@ -11,3 +11,5 @@ In the repository you will also find:
 - µTOM32 board schematics for reference
 
 WARNING: This is NOT a "plug and play" device, it is a preliminary version that requires debugging, characterization and (probably) corrections! 
+
+Contact for support: kauefelipems@gmail.com
